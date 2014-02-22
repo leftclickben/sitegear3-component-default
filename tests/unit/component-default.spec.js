@@ -8,7 +8,7 @@
 
 (function (_, defaultComponent, jasmine, mockApplication) {
 	"use strict";
-	require('./setupTests');
+	require('../setupTests');
 
 	describe('Component: default', function () {
 		it('Exports a function', function () {
